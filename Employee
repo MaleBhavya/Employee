@@ -1,0 +1,10 @@
+public class Main
+{
+    String name="Robert";
+    String yoj="1994";
+    String add="64C- WallsStreet Sam 2000 68D- WallsStreet John 1999 26B- WallsStreet";
+	public static void main(String[] args) {
+		Main obj=new Main();
+		System.out.println("Name Year of joining Address "+obj.name+obj.yoj+obj.add);
+	}
+}
